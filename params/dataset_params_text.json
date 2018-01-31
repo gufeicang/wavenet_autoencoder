@@ -1,0 +1,12 @@
+{
+    "batch_size":2,
+    "shuffle":true,
+    "num_workers":4,
+    "pin_memory":true,
+    "audio_path":"/public/home/yangmh/np_text1.pkl",
+    "receptive_field":1025,
+    "window_length":12000,
+    "cuda_available":true,
+    "quantization_channels":100
+}
+

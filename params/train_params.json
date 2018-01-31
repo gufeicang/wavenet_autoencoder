@@ -1,0 +1,14 @@
+{
+    "log_dir":"./log_text2/",
+    "restore_dir":"./restore_text2/",
+    "restore_model":"wavenet_autoencoder_text.model",
+    "check_point_every":1,
+    "print_every":100,
+    "num_epochs":2,
+    "wavenet_params":"./model_params_text.json",
+    "optimizer_type":"Adam",
+    "max_check_points":10,
+    "learning_rate":1e-5,
+    "momentum":0.9,
+    "device_ids":[0]
+}
